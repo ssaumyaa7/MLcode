@@ -31,8 +31,8 @@ modelnew = Model(inputs=model.input, outputs=top)
 
 print(modelnew.summary())
 
-training = 'G:/MLOPS/transfer_learninig_vgg16/images/train'
-testing = 'G:/MLOPS/transfer_learninig_vgg16/images/test'
+training = 'C:/MLOPS/transfer_learninig_vgg16/images/train'
+testing = 'C:/MLOPS/transfer_learninig_vgg16/images/test'
 
 train_data = ImageDataGenerator( rescale=1./255, rotation_range=20, width_shift_range=0.2, height_shift_range=0.2,
 horizontal_flip=True, fill_mode='nearest')
